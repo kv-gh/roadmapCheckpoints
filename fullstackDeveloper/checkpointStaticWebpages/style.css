@@ -1,0 +1,40 @@
+body {
+    background: #232830;
+    color: #ffffff
+}
+
+#header {
+    display: flex;
+    justify-content: space-between;
+}
+
+#intro h1 {
+    color: #ff7575;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#navigation {
+    display: flex;
+}
+
+#navigation ul, #categoryListing ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+#navigation li, #categoryListing li {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Scale down category icons to better fit inline*/
+li img {
+    max-width: 20px;
+    max-height: 20px;
+}
